@@ -1,0 +1,72 @@
+/*my site css*/
+*	{
+	color:white;
+}
+body	{
+	background-color: black;
+	background-image: url("https://image.freepik.com/free-vector/cactus-pattern_23-2148089850.jpg");
+	background-position: top;
+}
+div	{
+	background-color: rgba(0,0,0,0.7);
+	font-size: 25px;
+}
+h1 {
+	font-size: 50px;
+	font: white;
+	font-family:;
+	text-align:center;
+}
+h2 	{
+	font-family:Impact;
+	font-size:30px;
+	text-align: left;
+}
+p 	{
+	font-family: Courier;
+	font-size: 25px;
+	text-align: left;
+}
+em 	{
+	font-style: italic;
+	text-decoration: underline;
+}
+div 	{
+	text-align: left;
+	padding: 10px;
+	margin:5px;
+}
+.bwa 	{
+	border-color: white;
+	border-style: double;
+}
+ol 	{
+	border-style: ridge;
+}
+ul 	{
+	border-style:dashed;
+}
+div.bwa 	{
+	text-decoration: ;
+	font-style:;
+	opacity:;
+
+}
+img.pic	{
+	float:left;
+	padding-right:5px;
+}
+.left-pic	{
+	text-align: left;
+
+}
+#citylights {
+	color: #fff;
+	text-shadow: 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	background-color:black;
+    font-family: 'Codystar';
+    font-size: 8vw;
+    padding:3px;
+    margin:2px;
+    border-style:dotted;
+}
