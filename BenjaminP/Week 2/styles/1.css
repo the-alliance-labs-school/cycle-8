@@ -3,16 +3,15 @@
   text-align: center;
 }
 
-.head{
-    color: green;
-    background-color: #660066;
+head{
+    color: #e600e6;
     padding: 3%;
+    
 }
 
-.bod{
-    background-image:url("galax.jpg");
+body{
     color: #ff1aff;
-    background-color: black;
+    
 }
 
 .logo{
