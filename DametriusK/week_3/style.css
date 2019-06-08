@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(155, 160, 228);
+    color: rgb(212, 122, 37);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 25%;
+}
+
+#verse1 {
+    font-size: 1em;
+}
+
+p em {
+    margin: 20px 0;
+}
+
+span {
+    color: rgb(255,255,255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    float: right;
+
+}
+
+#verse2 {
+    font-size: 1.15em;
+}
+
+ol li:nth-child(even) {
+    text-align: right;
+}
+
+#verse3 {
+    font-size: 0.85em;
+}
+
+.youlink {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    height: 180px; 
+    margin: 5px auto;
+    width: 180px;
+}
