@@ -1,0 +1,70 @@
+body {
+    /* background-color: rgb(155, 160, 228); */
+    background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg");
+    color: #9b2300;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: rgba(0,120,155,0.7);
+    border: 5px dotted rgb(19, 54, 119);
+    margin: 0 25%;
+    padding: 3%;
+}
+
+#verse1 {
+    font-size: 1.1em;
+}
+
+span {
+    border-color: whitesmoke;
+    border-style: dashed none;
+    color: rgb(255,255,255);
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    float: right;
+}
+
+#verse2 {
+    font-size: 1.2em;
+}
+
+ol li:nth-child(even) {
+    list-style-position: inside;
+    text-align: end;
+}
+
+#verse3 {
+    font-size: 0.85em;
+}
+
+.youlink {
+    border: 3px outset whitesmoke;
+    color: whitesmoke;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    width: 25%;
+}
+
+a {    
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px dashed white;
+    display: block;
+    min-height: 15%;
+    max-height: 35%;
+    margin: 15px auto;
+    min-width: 15%;
+    max-width: 35%;
+}
