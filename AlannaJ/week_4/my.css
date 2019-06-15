@@ -63,7 +63,8 @@ em 	{
 	float:right;
 }
 .holder 		{
-	background-color: transparent;	
+	background-color: transparent;
+	display:flex;
 }
 .top 	{
 	margin: 10px;
