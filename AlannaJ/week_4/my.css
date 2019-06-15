@@ -1,0 +1,81 @@
+/*my site css*/
+*	{
+	color:#BDFCC9;
+	min-width: 2px;
+	min-height: 2px;
+
+}
+body	{
+	background-color: black;
+	background-image: url("https://image.freepik.com/free-vector/cactus-pattern_23-2148089850.jpg");
+	background-position: top;
+}
+section, div	{
+	background-color: rgba(0,0,0,0.7);
+	font-size: 25px;
+}
+#star {
+	font-size: 8vw;
+    font-family: 'Codystar';
+	font: white;
+	color: #fff;
+	text-align:center;
+	padding:0px, 20px;
+	text-shadow: 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	background-color:rgba(0,0,0,0.7);
+	border: 8px dotted #ff2d95;
+    border-style:dashed;
+    max-width: 60%;
+    margin: 1% 20% 15% 20%;
+
+}
+h2 	{
+	font-family:Impact;
+	font-size:30px;
+	text-align: left;
+}
+p 	{
+	font-family: Courier;
+	font-size: 25px;
+	text-align: left;
+}
+em 	{
+	font-style: italic;
+	text-decoration: underline;
+}
+.picSpace 	{
+	padding: 5px;
+	border: 2px groove #228B22;
+	margin-top: -10%;
+}
+.textSpace, .textSpace1, .textSpace2 	{
+	border-color: #50C878;
+	border-style: double;
+	margin: 5%;
+	display: inline-block;	
+	max-width: 	60%;
+	display: inline;
+}
+.textSpace1 {
+	float:left;	
+}
+.textSpace, .textSpace2 {
+	float:right;
+}
+.holder 		{
+	background-color: transparent;	
+}
+.top 	{
+	margin: 10px;
+	max-width: 600px;
+}
+img 		{
+	padding:15px 7% 15px 5%;
+	clear: 	none;	
+}
+ol, ul 	{
+	border-style: ridge dashed;
+	max-width: 200px;
+	float: 
+}
+
