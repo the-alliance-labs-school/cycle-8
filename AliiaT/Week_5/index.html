@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+body {
+  margin: 0;
+
+  font-size: 1.1em;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+.header {
+  background-color:chartreuse;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  
+  
+  
+}
+
+
+.column.side {
+  width: 30%;
+}
+
+
+.column.middle {
+  width: 35%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex;
+  clear:all;
+}
+
+.footer {
+  background-color:chartreuse;
+  padding: 20px;
+  text-align: center;
+  font-size: 200%;
+ 
+ 
+  
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Header</h1>
+  <p></p>
+</div>
+
+
+<div class="row">
+  <div class="column side">
+    <h2>Sidebar 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Article</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+</div>
+  
+  <div class="column side">
+    <h2>Sidebar 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
