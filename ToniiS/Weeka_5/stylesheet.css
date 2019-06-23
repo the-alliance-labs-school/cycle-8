@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background: ghostwhite;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px;
+}
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: cadetblue;
+    margin:0px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+   height: max;
+
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding: 25px 25px;
+}
+
+nav a {
+    color: #444;
+    text: decoration: none;
+    text-transform: uppercase;
+}
+
+.right-side_bar{
+    position: absolute;
+    right: 0px;
+    width: 260px;
+    height: 90%;
+    background-color: lightgrey;
+    top:10%;
+}
+
+.left-side_bar{
+    position: absolute;
+    left: 0px;
+    width: 260px;
+    height: 90%;
+    background-color: lightgrey;
+    top: 10%;
+
+}
+
+article{
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+    display: inline;
+
+}
+
+.wrapper {
+
+    background: #ccc;
+    margin: 0 auto; /* to make the div center align to the browser */
+    padding: 20px auto;
+    width: 500px;
+    text-align: center;
+    transform: translate(-0%, 50%);
+}
+.wrapper ul {
+    background: #aaa;
+    padding: 20px;
+    display: inline-block;
+}
+.wrapper ul li {
+    color: #fff;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.wrapper ul li:last-child {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+}
+
+#footer  {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: cadetblue;
+
+}
