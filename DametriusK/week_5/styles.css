@@ -1,0 +1,36 @@
+nav {
+    background-color: blue;
+    height: 200px;
+    text-align: center;
+    width: 100%
+}
+
+.column {
+    float: left;
+    height: 300px;
+    text-align: center;
+}
+
+.left {
+    background-color: yellow;
+    width: 25%;
+
+}
+
+.center {
+    background-color: brown;
+    width: 50%;
+}
+
+.right {
+    background-color: green;
+    width: 25%;
+}
+
+footer {
+    background-color: red;
+    clear: both;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+}
