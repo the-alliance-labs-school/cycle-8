@@ -1,0 +1,20 @@
+body	{
+	background-color: white;
+    
+    
+}
+
+.row   {
+    font: blue;
+    background-color:yellow;
+    font-size: 40px;
+}
+
+.col-3, .col-6, .col-12 {
+    border: 2px solid black;
+    color:black;
+}
+    
+
+
+
