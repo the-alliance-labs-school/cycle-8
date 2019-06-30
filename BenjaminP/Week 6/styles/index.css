@@ -1,0 +1,20 @@
+.first{
+    color: rgb(10, 3, 17);
+    background-image: url(https://www.snopes.com/tachyon/2016/12/shutterstock_208439701.jpg?resize=865,452);
+    padding: 5%;
+    font-size: 200%;
+}
+
+.second{
+    color: bisque;
+    background-image: url(https://boygeniusreport.files.wordpress.com/2018/11/eso1837b.jpg?quality=98&strip=all&w=782);
+    padding:5%;
+    font-size: 150%;
+}
+
+.third{
+    color:white;
+    background-image: url(https://cdn-images-1.medium.com/max/1200/1*n8ODb1OAe6ygCtABI18e7Q.png);
+    padding: 5%;
+    font-size: 130%;
+}
