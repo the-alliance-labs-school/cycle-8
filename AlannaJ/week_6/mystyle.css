@@ -1,0 +1,18 @@
+body	{
+	background-color: black;
+	background-image: url("under-sea.jpg");
+    background-position: top;
+    background-size: 800px 800px;
+}
+
+.row   {
+    font: white;
+    background-color:teal;
+    font-size: 22px;
+}
+
+.col-3, .col-6, .col-12 {
+    border: 3px inset cyan;
+    border-collapse: collapse;
+    color:white;
+}
