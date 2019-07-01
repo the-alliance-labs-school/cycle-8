@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>JAVASCRIPT STUDY SITE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Code H.html">AC MEDIA DESIGN CENTER</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="Code H.html">HTML</a></li>
+            <li><a href="Code C.html">CSS</a></li>
+            <li><a href="Code J.html">JAVASCRIPT</a></li>
+         <!-- <li><a href="Source.html">Source</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+     <style>
+      body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+    
+     </style>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>JAVASCRIPT CHEATSHEET </h1>
+        <center>
+        <img src="Images/javascript-illustration.png" 
+        </center>
+      </BR>
+      </bR>
+     </BR>
+         
+       <h3> <strong>This site was created for personal use as guide for me to use as practice on my JavaScript coding skills to make easy and accesable for me to have all the tools I need </strong></h3>
+       
+      </BR>
+    </bR>
+   </BR>   
+      <center>  
+     <img src="Images/JS1.PNG">
+      </br>
+    </br>
+
+     <img src="Images/JS2.PNG">
+    </br>
+  </br>
+
+     <img src="Images/JS3.PNG">
+    </br>
+  </br>
+
+    <img src="Images/JS4.PNG">
+     </center>
+    </BR>
+  </bR>
+ </BR>   
+     
+       <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="acriollo" data-slug-hash="VJQjBz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Code Editor">
+        <span>See the Pen <a href="https://codepen.io/acriollo/pen/VJQjBz/">
+        Code Editor</a> by Acriollo (<a href="https://codepen.io/acriollo">@acriollo</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
