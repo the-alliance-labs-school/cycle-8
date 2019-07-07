@@ -1,0 +1,148 @@
+.carousel-inner	{
+	border: 1px solid black;
+	width: 600px;
+	height: 750px;
+	align-self: center;
+	margin-left:30%;
+	margin-right: 30%;
+}
+.carousel-item	{
+	align-self: center;
+}
+#llamacorn	{
+	background-image: linear-gradient(#BCD9FF, #FFBCD9); 
+}
+h1 	{
+	font-size: 80px;
+	font-family: 'Waiting for the Sunrise', cursive;
+    color:#FF69B4;
+    text-align: center;
+}
+h2 	{
+	font-size: 20px;
+	margin-left: 30px;
+	font-family: 'Waiting for the Sunrise', cursive;
+}
+p {
+	font-size: 15px;
+	margin-left: 30px;
+	margin-right: 200px;
+	font-family: 'Waiting for the Sunrise', cursive;
+}
+a > h2 	{
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+	font-size:30px;
+	font-family: 'Just Me Again Down Here', cursive;
+}
+a > p 	{
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+	font-size:20px;
+	font-family: 'Just Me Again Down Here', cursive;
+}
+
+
+p > a 	{
+	color:#FF69B4;
+}
+*{
+	margin:0;
+	padding:0;
+	color:#000;
+}
+body{
+	font-family:arial,sans-serif;
+	font-size:100%;
+	margin:1em;
+	background:#666;
+	color:#fff;
+	background-image: url("final_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+h2,p{
+	font-size:25px;
+	font-weight:normal;
+}
+ul,li{
+	list-style:none;
+}
+ul{
+	overflow:hidden;
+	padding:3em;
+}
+ul li a{
+	text-decoration:none;
+	color:#000;
+	background:#d1a2f2;
+	display:block;
+	height:15em;
+	width:15em;
+	padding:1em;
+	margin:2em;
+	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+	-webkit-transition:-webkit-transform .15s linear;
+	overflow: hidden;
+}
+ul li{
+	margin:1em;
+	float:left;
+}
+ul li:nth-child(even) a{
+	-webkit-transform:rotate(4deg);
+	position:relative;
+	top:5px;
+	background:#a2f2c0;
+}
+ul li:nth-child(3n) a{
+	-webkit-transform:rotate(-3deg);
+	position:relative;
+	top:-5px;
+	background:#FFBCD9;
+}
+ul li:nth-child(5n) a{
+	-webkit-transform:rotate(5deg);
+	position:relative;
+	top:-10px;
+}
+ul li a:hover,ul li a:focus{
+	box-shadow:10px 10px 7px rgba(0,0,0,.7);
+	-webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+	-webkit-transform: scale(1.25);
+	position:relative;
+	z-index:5;
+}
+.left   {
+	text-shadow:
+    	2px 0px 2px #000000,
+        10px 0px 2px rgba(0, 255, 255, 0.5),
+        12px 0px 2px #000000,
+        20px 0px 2px rgba(191, 255, 0, 0.5),
+        22px 0px 2px #000000;
+}
+.right   {
+
+	font-family: 'Waiting for the Sunrise', cursive;
+    color:#FF69B4;
+    text-shadow: 0 2px #000;
+    font-size: 30px;
+}
+.down    {
+    text-shadow:
+        2px 2px #000000,
+        6px 6px #00FFFF,
+        8px 8px #000000,
+        12px 12px #BFFF00,
+        14px 14px #000000;
+}
+em      {
+    color:#FF69B4;
+    font-size: 25px;
+    font-weight: bolder;
+    position: static;
+    padding-right: 20px;
+}
