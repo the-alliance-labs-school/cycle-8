@@ -1,0 +1,26 @@
+.dir{
+    
+    background-color: rgb(25, 94, 28);
+    border:10px rgb(25, 94, 28);
+    border-style: hidden hidden inset inset;
+    height: 100%;
+    width: 100%;
+    
+}
+
+li{
+    
+    padding: 2%;
+    width: 150px;
+    background-color: rgb(25, 94, 28);
+    margin: 5px;
+    text-align: center;
+    
+}
+
+.logo{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    height: 10%;
+    width: 10%;
+}
