@@ -1,0 +1,19 @@
+.navbar{
+   background:#a6e329 ;
+}
+.logo{
+    background: transparent;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+}
+
+.sims_pic{
+    width: 50%;
+    border:0;
+    float: right;
+}
+p{
+    align: left;
+}
