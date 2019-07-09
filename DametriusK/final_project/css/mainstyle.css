@@ -1,0 +1,235 @@
+@font-face { font-family: "PokemonGB"; src: url('PokemonGB.ttf'); } 
+
+body {
+	font-family: PokemonGB;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+	min-height: 100vh;
+	background: #003e46;
+
+}
+
+header {
+	align-items: center;
+	border-bottom: 2px solid #000;
+	background-color: #C8282E;
+	width: 100%;
+	display: flex;
+	margin-bottom: 2em;
+}
+
+#blue {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	margin-right: 10px;
+	background-color: #3BB1DE;
+}
+
+#white {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.circle {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 2px solid #000;
+}  
+
+.red {
+	background-color: #F33;
+}
+
+.orange {
+	background-color: #EDB825;
+}
+
+.green {
+	background-color: #16822D;
+}
+
+#logo {
+	text-align: center;
+	flex: 1;
+}
+
+.container {
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.box {
+	position: relative;
+	margin-bottom: 15px;
+	width: 300px;
+	height: 400px;
+	background: #000;
+	box-shadow: 0 30px 30px rgba(0,0,0,.5);
+}
+
+.box .imgBx {
+	background-color: red;
+	border: 5px solid #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.box .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+
+}
+
+
+.box:hover .imgBx img {
+	opacity: 0;
+
+}
+
+.box .content {
+	position: absolute;
+	bottom: 20px;
+	border: 5px solid #000;
+	left: 10%;
+	width: 80%;
+	height: 60px;
+	background: #A2A2A2;
+	transition: 0.5s;
+	overflow: hidden;
+
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+
+.box:hover .content {
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+
+}
+
+.box .content h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+
+}
+
+
+.box .content p {
+	font-size: 10pt;
+	margin: 10px 0 0;
+	padding: 0;
+	opacity: 0;
+	line-height: 1.2em;
+	transition: 0.5s;
+
+}
+
+.box:hover .content p {
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+
+span {
+	border-radius: 5px;
+	padding: 2px 5px 2px 1px;
+	color: #fff;
+}
+
+.Grass {
+	background-color: #78C850;
+}
+
+.Poison {
+	background-color: #A040A0;
+}
+
+.Fire {
+	background-color: #F08030;
+}
+
+.Flying {
+	background-color: #A890F0;
+}
+
+.Water {
+	background-color: #6890F0;
+}
+
+.Bug {
+	background-color: #A8B820;
+}
+
+.Normal {
+	background-color: #A8A878;
+}
+
+.Electric {
+	background-color: #F8D030;
+}
+
+.Ground {
+	background-color: #E0C068;
+}
+
+.Psychic {
+	background-color: #F85888;
+}
+
+.Rock {
+	background-color: #B8A038;
+}
+
+.Ice {
+	background-color: #98D8D8;
+}
+
+.Dragon {
+	background-color: #7038F8;
+}
+
+.Ghost {
+	background-color: #705898;
+}
+
+.Fighting {
+	background-color: #C03028;
+}
+
+footer {
+	align-items: center;
+	border-top: 2px solid #000;
+	background-color: #C8282E;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	margin-top: 2em;
+}
+
+.oval {
+	height: 10px;
+	border: 2px solid #000;
+	width: 33%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
